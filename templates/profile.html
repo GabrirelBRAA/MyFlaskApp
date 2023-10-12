@@ -1,0 +1,7 @@
+{% extends "navbar.html" %}
+{% block content %}
+
+<h1 class="greet">{{session['username']}}</h1>
+<img class="greet profile_image" src={{ url_for('images', filename= session['profile_image']) }} alt="User profile image">
+
+{% endblock %}

@@ -1,6 +1,7 @@
-from DB import DBConnection
+from .DB import DBConnection
 
 class UserController:
+
     def __init__(self, connection):
         self.connection = connection
 
@@ -13,7 +14,7 @@ class UserController:
         """
         self.connection.insert(query, parameters)
 
-    def requestName(self, name):
+    def request_name(self, name):
         query = """
         SELECT * from main_schema."Users"
         WHERE first_name = %s;

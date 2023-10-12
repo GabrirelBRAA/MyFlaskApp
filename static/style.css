@@ -1,0 +1,60 @@
+
+*{
+  font-family: Josefin Sans, Helvetica, sans-serif;  
+}
+
+.greet{
+    display: block;
+    font-family: Josefin Sans, Helvetica, sans-serif;
+    color: green;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_image{
+    height: 40vh;
+    width: 30vw;
+}
+
+.error{
+    color: plum;
+    text-align: center;
+}
+
+.content{
+    font-family: Josefin Sans, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.content > input, .content > label > input{
+    margin-top: 1vh;
+    border: solid 1px black;
+}
+
+
+body{
+    background-color: deeppink;
+    margin: 0; 
+}
+
+#navbar{
+    background-color: khaki;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar > a {
+    color: inherit;
+    background-color: lawngreen;
+    padding: 3vh;
+    text-decoration: none;
+}
+
+#navbar > a:hover{
+    background-color: blanchedalmond;
+    color: deeppink;
+}
